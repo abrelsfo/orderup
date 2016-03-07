@@ -1,0 +1,45 @@
+{
+  "name": "orderup",
+  "version": "0.0.0",
+  "description": "Quickstart your day by opening all the files for a project that you specify once",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "orderup" : "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrelsfo/orderup.git"
+  },
+  "files": [
+    "orderup.js",
+    "cli.js",
+    "chalkDefaults.js"
+  ],
+  "keywords": [
+    "quick",
+    "start",
+    "open",
+    "order",
+    "fast",
+    "efficiency",
+    "Alex"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "update-notifier": "^0.6.0",
+    "remove_index": "^0.0.1",
+    "chalk": "^1.1.1",
+    "prompt": "^0.2.14",
+    "opn": "^4.0.1",
+    "shelljs": "^0.6.0",
+    "fs": "^0.0.2"
+  },
+  "author": "Alex Brelsford <alexbrelsford@gmail.com> (abrelsfo.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrelsfo/orderup/issues"
+  },
+  "homepage": "https://github.com/abrelsfo/orderup#readme"
+}
