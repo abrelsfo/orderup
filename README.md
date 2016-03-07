@@ -18,7 +18,7 @@
 
 ### orderup <path/to/project>
 
-##### <path/to/project> or <.>
+> **path/to/project** or **.**
 
 provide a path for order up to look.<br>
 If there is not an orderup.md file in that location then it will prompt you for a program to open files with.<br>
