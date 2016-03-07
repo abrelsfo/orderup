@@ -126,6 +126,6 @@ module.exports = function (args){
     throw new TypeError(`Orderup expected type string, got ${typeof args[0]}`)
   }
 
-  lib = args[0];
+  lib = args;
   checkForInit();
 };

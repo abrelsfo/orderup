@@ -7,6 +7,7 @@ const updateNotifier = require('update-notifier');
 const cli = meow([
   'Usage',
   '  $ orderup [path/to/project]',
+  '  Default: .',
   '',
   'Examples',
   '  $orderup C:/Users/UserName/Documents/Programs/javascript/orderup'
@@ -14,4 +15,10 @@ const cli = meow([
 
 updateNotifier({pkg: cli.pkg}).notify();
 
-orderup(cli.input || '.');
+if (cli.input.length > 1) {
+  console.error('Specify one directory')
+  console.log(cli.help);
+  process.exit(1);
+}
+
+orderup(cli.input[0] || '.');
