@@ -16,7 +16,7 @@
 
 ## API
 
-### orderup <path/to/project>
+### orderup path/to/project
 
 > **path/to/project** or **.**
 
