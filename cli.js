@@ -11,4 +11,4 @@ const cli = meow([
 
 updateNotifier({pkg: cli.pkg}).notify();
 
-orderup(cli.input);
+orderup(cli.input || '.');
