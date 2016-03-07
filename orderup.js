@@ -118,9 +118,14 @@ function writeToFile() {
 //==============================================================================
 
 module.exports = function (args){
-  if (args === undefined){
-    throw new Error('Orderup expected a directory, recieved nothing')
+  if (args[0] === undefined){
+    throw new Error(`Orderup expected a directory, recieved nothing`)
   }
+
+  if (typeof args[0] !== 'string'){
+    throw new TypeError(`Orderup expected type string, got ${typeof args[0]}`)
+  }
+
   lib = args[0];
   checkForInit();
 };

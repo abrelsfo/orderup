@@ -1,7 +1,6 @@
 ## OrderUp
 
 [![npm version](https://img.shields.io/npm/v/orderup.svg)](https://www.npmjs.com/package/orderup)
-[![Build Status](https://travis-ci.org/abrelsfo/orderup.svg?branch=master)](https://travis-ci.org/abrelsfo/orderup)
 [![npm download count](http://img.shields.io/npm/dm/orderup.svg?style=flat)](http://npmjs.org/orderup)
 
 > Makes opening your files for a project quick and easy. Just run the one time setup and then from there just navigate to your project file and run orderup
