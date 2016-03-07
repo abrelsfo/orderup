@@ -6,7 +6,7 @@
 > Makes opening your files for a project quick and easy. Just run the one time setup per project and then from there just navigate to your project file and run orderup
 
 
-![demo](orderup.png)
+![demo](orderup.PNG)
 
 > To initialize orderup.md run orderup path/to/project or . if in project directory
 
