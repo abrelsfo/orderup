@@ -29,8 +29,14 @@
 ## Usage
 
 ```js
-orderup C:/Users/UserName/Documents/Programs/Javascript/orderup
-//=>Opens the orderup.md file and opens the files inside with the specified program
+orderup C:/Users/UserName/Documents/Programs/Javascript/project
+//=>Tries to open the orderup.md file inside project folder
+
+orderup .
+//=>Tries to open the orderup.md file inside current directory
+
+orderup
+//=>Tries to open the orderup.md file inside current directory
 ```
 <br>
 
@@ -73,6 +79,7 @@ orderup('path/to/project');
 ##### target
 
 Type: `string`
+Default: '.'
 
 Opens all files that are in the orderup.md file located in target
 
