@@ -1,6 +1,6 @@
 {
   "name": "orderup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickstart your day by opening all the files for a project that you specify once",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
