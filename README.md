@@ -3,7 +3,20 @@
 [![npm version](https://img.shields.io/npm/v/orderup.svg)](https://www.npmjs.com/package/orderup)
 [![npm download count](http://img.shields.io/npm/dm/orderup.svg?style=flat)](http://npmjs.org/orderup)
 
-> Makes opening your files for a project quick and easy. Just run the one time setup and then from there just navigate to your project file and run orderup
+> Makes opening your files for a project quick and easy. Just run the one time setup per project and then from there just navigate to your project file and run orderup
+
+
+![demo](demo.png)
+
+> To initialize orderup.md run orderup path/to/project or . if in project directory
+
+> Open with: program you want your files to open with
+
+> File: file you want opened (press enter to specify another one, leave blank when done)
+
+> Double check you added all the files you want (You can manually edit this later)
+
+> Run orderup path/to/project or . again to open the files
 
 ![](C:/Users/tnabrelsfo/Pictures/orderup.png)
 
