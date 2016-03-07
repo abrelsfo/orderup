@@ -8,15 +8,15 @@
 
 ![demo](orderup.PNG)
 
-> To initialize orderup.md run orderup path/to/project or . if in project directory
+* To initialize ```orderup.md``` run ```orderup path/to/project or . ``` if in project directory
 
-> Open with: program you want your files to open with
+* ```Open with:``` program you want your files to open with
 
-> File: file you want opened (press enter to specify another one, leave blank when done)
+* ```File:``` file you want opened (press enter to specify another one, leave blank when done)
 
-> Double check you added all the files you want (You can manually edit this later)
+* Double check you added all the files you want (You can manually edit this later)
 
-> Run orderup path/to/project or . again to open the files
+* Run ```orderup path/to/project or . ``` again to open the files
 
 <br>
 
