@@ -16,7 +16,7 @@ const cli = meow([
 updateNotifier({pkg: cli.pkg}).notify();
 
 if (cli.input.length > 1) {
-  console.error('Specify one directory')
+  console.error('Specify one directory');
   console.log(cli.help);
   process.exit(1);
 }

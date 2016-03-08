@@ -1,5 +1,5 @@
 import test from 'ava';
-const openm = require('./orderup.js');
+const orderup = require('./orderup.js');
 
 test('valid args', t => {
   t.throws(() => {

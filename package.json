@@ -8,6 +8,10 @@
   "bin": {
     "orderup": "cli.js"
   },
+  "scripts": {
+    "test": "xo && ava",
+    "ava": "ava"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abrelsfo/orderup.git"
