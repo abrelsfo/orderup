@@ -1,4 +1,4 @@
-## OrderUp
+## OrderUp (Windows only for the moment, having formatting issues)
 
 [![npm version](https://img.shields.io/npm/v/orderup.svg)](https://www.npmjs.com/package/orderup)
 [![npm download count](http://img.shields.io/npm/dm/orderup.svg?style=flat)](http://npmjs.org/orderup)
