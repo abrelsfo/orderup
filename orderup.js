@@ -128,10 +128,30 @@ function writeToFile() {
       process.exit(1);
     }
     outs.success('orderup located at ' + lib + '/orderup.md !');
+
+		addToIgnore();
   });
 }
 
 // ==============================================================================
+
+function addToIgnore() {
+	fs.stat(lib + '/.gitignore', function (err) {
+    if (err === null) {
+      fs.appendFile(lib + '/.gitignore','orderup.md', function (err) {
+				if (err) {
+					throw (err);
+				}
+			});
+    } else if (err.code === 'ENOENT') {
+      console.log(chalk.red('.gitignore could not be found'))
+    } else {
+      console.log('Some other error: ', err.code);
+    }
+  });
+};
+
+// =============================================================================
 
 module.exports = function (args) {
   if (args[0] === undefined) {
