@@ -16,6 +16,8 @@
 
 * Double check you added all the files you want (You can manually edit this later)
 
+* Files will be added to ```orderup.md``` and ```orderup.md``` will be added to ```.gitignore``` if it exists
+
 * Run ```orderup path/to/project or . ``` again to open the files
 
 <br>
