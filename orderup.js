@@ -138,11 +138,18 @@ function writeToFile() {
 function addToIgnore() {
 	fs.stat(lib + '/.gitignore', function (err) {
     if (err === null) {
-      fs.appendFile(lib + '/.gitignore','orderup.md', function (err) {
-				if (err) {
-					throw (err);
-				}
-			});
+      fs.readFile(lib + '/.gitignore', 'utf8', function (err, data) {
+        if (err) {
+          throw (err);
+        }
+        if (data.indexOf('orderup.md') === -1) {
+          fs.appendFile(lib + '/.gitignore','orderup.md', function (err) {
+    				if (err) {
+    					throw (err);
+    				}
+    			});
+        }
+      });
     } else if (err.code === 'ENOENT') {
       console.log(chalk.red('.gitignore could not be found'))
     } else {
